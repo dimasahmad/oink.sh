@@ -14,4 +14,4 @@ Last month I turned 26 years old. I decided I will starts working as a professio
 
 I will document my new journey on this blog to remind me later in life how much I grow as an engineer and as a person.
 
-P.s. I was born in the year of the pig, and thought pig-themed branding is cute. So I bought oink.sh because it's both cute and short. I got the domain from porkbun for ultimate piggy experience 🐷
+P.s. I was born in the year of the pig, and thought pig-themed branding is cute. So I bought 🐷 oink.sh because it's both cute and short.
