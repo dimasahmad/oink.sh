@@ -51,7 +51,7 @@ collections:
         name: "links"
         file: "src/_data/quicklinks.yaml"
         fields:
-          - label: Nav Items
+          - label: Quick Links
             name: links
             widget: list
             collapsed: false
@@ -59,6 +59,16 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: URL, name: url, widget: string }
               - { label: Description, name: desc, widget: string }
+      - label: "Certificates"
+        name: "certificates"
+        file: "src/_data/certificates.yaml"
+        fields:
+          fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: string }
+              - { label: Date, name: date, widget: date }
+              - { label: URL, name: url, widget: string }
+              - { label: Icon URL, name: icon_url, widget: string }
       - label: "Meta Settings"
         name: "settings"
         file: "src/_data/settings.yaml"
