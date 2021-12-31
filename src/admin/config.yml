@@ -64,7 +64,9 @@ collections:
         file: "src/_data/certificates.yaml"
         fields:
           - label: Certificates
+            name: certificates
             widget: list
+            collapsed: false
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Description, name: description, widget: string }
