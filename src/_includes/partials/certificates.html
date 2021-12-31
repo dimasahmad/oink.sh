@@ -4,12 +4,6 @@
     {% if certificates %}
         {% for certificate in certificates %}
             <a href="{{certificate.url}}" target="_blank" class="p-5 border rounded border-gray-200 hover:border-purple-400">
-                <div class="relative w-28 h-28">
-                    <span style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;">
-                        <img src="{{certificate.icon_url}}">
-                    </span>
-                </div>
-                
                 <h3>{{certificate.title}} →</h3>
                 <p>{{certificate.description}}</p>
                 <p>{{certificate.date}}</p>
