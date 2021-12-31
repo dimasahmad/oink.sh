@@ -3,10 +3,10 @@
 <div class="w-full max-w-2xl grid grid-cols-1 lg:grid-cols-2 gap-4 my-8 px-4 lg:mx-0">
     {% if certificates.certificates %}
         {% for certificate in certificates.certificates %}
-            <a href="{{certificate.url}}" target="_blank" class="p-5 border rounded border-gray-200 hover:border-purple-400">
-                <h3>{{certificate.title}} →</h3>
-                <p>{{certificate.description}}</p>
-                <p class="mt-8 text-md text-black dark:text-white opacity-40 w-full">Earned {{certificate.date}}</p>
+            <a href="{{ certificate.url }}" target="_blank" class="p-5 border rounded border-gray-200 hover:border-purple-400">
+                <h3>{{ certificate.title }} →</h3>
+                <p>{{ certificate.description }}</p>
+                <p class="mt-8 text-md text-black dark:text-white opacity-40 w-full">Earned {{ certificate.date | readableDate }}</p>
             </a>
         {% endfor %}
     {% endif %}
