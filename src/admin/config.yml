@@ -63,12 +63,11 @@ collections:
         name: "certificates"
         file: "src/_data/certificates.yaml"
         fields:
-          fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Description, name: description, widget: string }
-              - { label: Date, name: date, widget: date }
-              - { label: URL, name: url, widget: string }
-              - { label: Icon URL, name: icon_url, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: string }
+          - { label: Date, name: date, widget: date }
+          - { label: URL, name: url, widget: string }
+          - { label: Icon URL, name: icon_url, widget: string }
       - label: "Meta Settings"
         name: "settings"
         file: "src/_data/settings.yaml"
